@@ -9,7 +9,7 @@ const createStationeryProduct = async (req: Request, res: Response) => {
       await stationeryProductServices.createStationeryProductDB(
         stationeryProduct
       );
-    res.status(201).json({
+    res.status(200).json({
       message: "Stationery Product Created Successfully",
       success: true,
       data: result,
