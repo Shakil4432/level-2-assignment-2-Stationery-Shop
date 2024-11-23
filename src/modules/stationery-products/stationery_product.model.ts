@@ -1,6 +1,5 @@
 import { model, Schema } from "mongoose";
 import { Stationery_product } from "./stationery-product.interface";
-import { timeStamp } from "console";
 
 const stationeryProductSchema = new Schema<Stationery_product>(
   {
