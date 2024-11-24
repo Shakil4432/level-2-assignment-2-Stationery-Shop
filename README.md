@@ -48,24 +48,25 @@ Before you begin, ensure you have the following installed:
 3. **Postman** - For testing API endpoints. [Download Postman](https://www.postman.com/)
 
 ### **Steps to Set Up**  
+
 1. **Clone the repository**  
    In your terminal, run the following command to clone the project:  
    ```bash
    git clone https://github.com/your-username/stationery-store-api.git
    cd stationery-store-api
-2.**Install dependencies:**
+2. **Install dependencies:**
    Run the following command to install the required packages:
    ```bash
    npm install
    ```
 
-3.**Set up the .env file**
+3. **Set up the .env file**
    Create a .env file in the root directory and set up the following keys:
    ```bash
    MONGO_URI=<Your MongoDB URI>
    PORT=5000
    ```
-4.**Start the development server**
+4. **Start the development server**
    To start the server, run:
 
    ```bash
