@@ -54,8 +54,29 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/your-username/stationery-store-api.git
    cd stationery-store-api
 2.**Install dependencies:**
-Run the following command to install the required packages:
+   Run the following command to install the required packages:
 
-```bash
-Copy code
-npm install
+   ```bash
+   npm install
+   ```
+
+3.**Set up the .env file**
+   Create a .env file in the root directory and set up the following keys:
+   ```bash
+   MONGO_URI=<Your MongoDB URI>
+   PORT=5000
+   ```
+4.**Start the development server**
+   To start the server, run:
+
+   ```bash
+   npm start
+   ```
+### **Usage**
+**Run Locally**
+1.After starting the server, access the API at http://localhost:5000.
+2.Use Postman to test the available endpoints.
+
+### **API Endpoints**
+1. /api/products
+2. /api/orders
