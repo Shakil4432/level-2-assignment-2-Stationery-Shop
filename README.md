@@ -53,3 +53,9 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/stationery-store-api.git
    cd stationery-store-api
+2.**Install dependencies:**
+Run the following command to install the required packages:
+
+```bash
+Copy code
+npm install
