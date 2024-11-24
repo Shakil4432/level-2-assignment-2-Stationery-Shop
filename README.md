@@ -55,7 +55,6 @@ Before you begin, ensure you have the following installed:
    cd stationery-store-api
 2.**Install dependencies:**
    Run the following command to install the required packages:
-
    ```bash
    npm install
    ```
