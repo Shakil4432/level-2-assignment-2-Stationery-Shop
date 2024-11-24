@@ -8,7 +8,7 @@ app.use(express.json());
 app.use("/api/products", StationeryProductRoute);
 app.use("/api/orders", OrderRoute);
 app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Server is running" });
+  res.json({ message: "Stationery Server is running" });
 });
 
 export default app;
