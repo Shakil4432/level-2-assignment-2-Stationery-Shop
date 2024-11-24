@@ -25,11 +25,11 @@ This project provides a backend API for managing stationery products, handling c
 ---
 
 ## **Features**  
-1. **Add, update, and delete stationery products.**  
-2. **Place orders for products.**  
-3. **Calculate total revenue from all orders.**  
-4. **Built-in validations for product fields and order data.**  
-5. **Secure data storage with MongoDB.**  
+1. Add, update, and delete stationery products.  
+2. Place orders for products.
+3. Calculate total revenue from all orders.
+4. Built-in validations for product fields and order data.
+5. Secure data storage with MongoDB.  
 
 ---
 
