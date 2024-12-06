@@ -5,7 +5,7 @@ An API-based solution to manage a stationery store where admins can manage produ
 ---
 
 ## **Live URL**  
-- [Stationery Store API Live](https://example.com) *(Replace with your live URL)*
+- [Stationery Store API Live](https://assignment-2-stationery-shop.vercel.app/)
 
 ---
 
@@ -80,3 +80,4 @@ Before you begin, ensure you have the following installed:
 ### **API Endpoints**
 1. /api/products
 2. /api/orders
+3. /api/orders/revenue
