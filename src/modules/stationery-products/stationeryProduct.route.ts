@@ -1,10 +1,7 @@
 import express from "express";
 import { createStationeryProductController } from "./stationeryProduct.controller";
 const router = express.Router();
-router.post(
-  "/create-stationery-product",
-  createStationeryProductController.createStationeryProduct
-);
+router.post("/", createStationeryProductController.createStationeryProduct);
 router.get("/", createStationeryProductController.getStationeryProduct);
 router.get("/:productId", createStationeryProductController.getSingleProduct);
 router.put("/:productId", createStationeryProductController.updateProduct);
