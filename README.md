@@ -80,3 +80,4 @@ Before you begin, ensure you have the following installed:
 ### **API Endpoints**
 1. /api/products
 2. /api/orders
+3. /api/orders/revenue
